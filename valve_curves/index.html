@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+<meta name="description" content="Мотомастерская в Рыбинске — ремонт, ТО, тюнинг и покраска мотоциклов. Качественно и быстро!">
+<meta name="keywords" content="ремонт мотоциклов Рыбинск, мотомастерская Рыбинск, тюнинг мотоциклов, техобслуживание мотоциклов">
+
+<title>Ремонт мотоциклов в Рыбинске | Мотомастерская</title>
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+    }
+    header {
+      background: #222;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #f33;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      background: #000;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px;
+    }
+    nav a {
+      color: #eee;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #f33;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #f33;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1 1 250px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card:hover {
+      background: #292929;
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      color: #888;
+    }
+    .contact {
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #f33;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #c00;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Мотомастерская КРИВЫЕ КЛАПАНА</h1>
+    <p>Ремонт, тюнинг и обслуживание мотоциклов</p>
+  </header>
+
+  <nav>
+    <a href="#services">Услуги</a>
+    <a href="#about">О нас</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+
+  <section id="services">
+    <h2>Наши услуги</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Ремонт</h3>
+        <p>Качественный ремонт любых мотоциклов и скутеров.</p>
+      </div>
+      <div class="card">
+        <h3>ТО</h3>
+        <p>Плановое техническое обслуживание, замена масел, расходников, подготовка к сезону и переборка ходовой части.</p>
+      </div>
+      <div class="card">
+        <h3>Тюнинг</h3>
+        <p>Установка тюнинг-деталей и доработка под ваши пожелания.</p>
+      </div>
+      <div class="card">
+        <h3>Двигатели</h3>
+        <p>Переборка двигателей, ремонт и восстановление гбц, замена прокладок и сальников мотора.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>О нас</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Наша мастерская — это команда профессионалов, которые любят мотоциклы так же, как и вы.
+      Мы проводим ремонт мотоциклов и мототехники используя только качественные запчасти, современное оборудование, и подходим к делу очень ответственно и серьезно, чтобы ваш байк всегда был в идеальном состоянии и готовым к бою.
+    </p>
+  </section>
+
+  <section id="contacts">
+    <h2>Контакты</h2>
+    <div class="contact">
+      <p>📞 Телефон: <a href="tel:+79605435113">+7 (960) 543-51-13</a></p>
+      <p>💬 Telegram: <a href="https://t.me/na_unskille" target="_blank">@na_unskille</a></p>
+      <a class="btn" href="tel:+79605435113">Позвонить</a>
+      <a class="btn" href="https://t.me/na_unskille" target="_blank">Написать в Telegram</a>
+    </div>
+
+    <h3 style="margin-top:40px; color:#f33;">Оставьте заявку</h3>
+    <form action="YOUR_FORMSPREE_URL" method="POST" style="max-width:400px; margin:30px auto; text-align:left;">
+      <label>Ваше имя:</label><br>
+      <input type="text" name="name" required style="width:100%; padding:10px; margin:8px 0; border-radius:5px; border:none;"><br>
+      
+      <label>Телефон:</label><br>
+      <input type="text" name="phone" required style="width:100%; padding:10px; margin:8px 0; border-radius:5px; border:none;"><br>
+      
+      <label>Сообщение:</label><br>
+      <textarea name="message" rows="4" required style="width:100%; padding:10px; margin:8px 0; border-radius:5px; border:none;"></textarea><br>
+
+<input type="submit" value="Отправить" class="btn">
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Мотомастерская. Все права защищены.</p>
+  </footer>
+</body>
+</html>
